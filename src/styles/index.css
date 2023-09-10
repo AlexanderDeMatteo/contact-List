@@ -1,3 +1,59 @@
 /* 
     General Styles
 */
+#carta{
+  width: 800px; 
+  position: relative;
+  left:400px;
+}
+form input{
+    display: block;
+    width: 900px;
+    height: 40px;
+    border-radius: 5px;
+    margin:5px
+}
+form input[type="submit"],
+form button{
+  display:block;
+  float: left;
+  margin:10px;
+  padding:5px;
+  cursor: pointer;
+  background-color: rgb(4, 0, 255);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+}
+.container{
+    background-color:rgb(202, 196, 255);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+#centrado{
+ text-align: center;   
+}
+#enlace{
+    position: relative;
+    right: 335px;
+}
+
+#icon{
+  cursor: pointer;
+  color: blue;
+  margin: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+#icons{
+  width: 10px;
+}
+#bodyText{
+  display: flex;
+}
